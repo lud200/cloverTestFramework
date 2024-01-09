@@ -43,7 +43,7 @@ public class SearchGoogleTest extends BaseTest {
         String homePage = driver.getTitle();
         assertEquals("Google", homePage);
 
-        // Load search page
+        // Load google search page
         ReportUtil.logMessage("Search Text", "Enter Search text clover");
         SearchPage sp = PageInstanceFactory.getInstance(SearchPage.class);
         assert sp != null;

@@ -43,7 +43,7 @@ public class SearchBingTest extends BaseTest {
         String homePage = driver.getTitle();
         assertEquals("Bing", homePage);
 
-        // Load search page
+        // Load bing search page
         ReportUtil.logMessage("Search Text", "Enter Search text clover");
         SearchPage sp = PageInstanceFactory.getInstance(SearchPage.class);
         assert sp != null;
