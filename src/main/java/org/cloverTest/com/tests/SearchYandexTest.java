@@ -33,7 +33,7 @@ public class SearchYandexTest extends BaseTest {
     }
 
     @Test
-    public void searchYahooTest() throws IOException {
+    public void searchYandexTest() throws IOException {
 
         loadProperties();
 
