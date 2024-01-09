@@ -14,13 +14,12 @@ import org.cloverTest.com.report.ExtentReportManager;
 public class ReportUtil {
     /**
      * Adds the screenshot.
+     *
      * @param message the message
      */
     public static void addScreenShot(String message) {
-        String base64Image = "data:image/png;base64,"
-                + ((TakesScreenshot) WebDriverContext.getDriver()).getScreenshotAs(OutputType.BASE64);
-        ExtentReportManager.getCurrentTest().log(LogStatus.INFO, message,
-                ExtentReportManager.getCurrentTest().addBase64ScreenShot(base64Image));
+        String base64Image = "data:image/png;base64," + ((TakesScreenshot) WebDriverContext.getDriver()).getScreenshotAs(OutputType.BASE64);
+        ExtentReportManager.getCurrentTest().log(LogStatus.INFO, message, ExtentReportManager.getCurrentTest().addBase64ScreenShot(base64Image));
     }
 
     /**
@@ -30,10 +29,8 @@ public class ReportUtil {
      * @param message the message
      */
     public static void addScreenShot(LogStatus status, String message) {
-        String base64Image = "data:image/png;base64,"
-                + ((TakesScreenshot) WebDriverContext.getDriver()).getScreenshotAs(OutputType.BASE64);
-        ExtentReportManager.getCurrentTest().log(status, message,
-                ExtentReportManager.getCurrentTest().addBase64ScreenShot(base64Image));
+        String base64Image = "data:image/png;base64," + ((TakesScreenshot) WebDriverContext.getDriver()).getScreenshotAs(OutputType.BASE64);
+        ExtentReportManager.getCurrentTest().log(status, message, ExtentReportManager.getCurrentTest().addBase64ScreenShot(base64Image));
     }
 
     public static void logMessage(String message, String details) {

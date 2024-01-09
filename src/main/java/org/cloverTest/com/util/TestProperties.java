@@ -7,11 +7,13 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class TestProperties {
-    /** The Constant props. */
+    /**
+     * The Constant props.
+     */
     private static final Properties props = new Properties();
 
     /**
-     * Load all propertie.
+     * Load all properties.
      */
     public static void loadAllProperties() {
         try {
@@ -36,7 +38,7 @@ public class TestProperties {
     /**
      * Put property.
      *
-     * @param key the key
+     * @param key   the key
      * @param value the value
      */
     public static void putProperty(String key, String value) {

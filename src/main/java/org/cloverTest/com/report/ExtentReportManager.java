@@ -3,6 +3,7 @@ package org.cloverTest.com.report;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import org.cloverTest.com.context.Constants;
@@ -10,14 +11,17 @@ import org.cloverTest.com.context.Constants;
 /**
  * The Class handles the report activities.
  *
- *
  * @author UdayaDuvvuri
- * */
+ */
 public class ExtentReportManager {
-    /** The extent reports. */
+    /**
+     * The extent reports.
+     */
     private static ExtentReports extentReports;
 
-    /** The map. */
+    /**
+     * The map.
+     */
     private static Map<Long, ExtentTest> map = new HashMap<>();
 
 
@@ -39,7 +43,7 @@ public class ExtentReportManager {
      * Start test.
      *
      * @param testName the test name
-     * @param desc the desc
+     * @param desc     the desc
      */
     public synchronized static void startTest(String testName, String desc) {
         ExtentTest test = getExtentReports().startTest(testName, desc);

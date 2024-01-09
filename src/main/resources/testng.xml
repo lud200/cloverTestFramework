@@ -4,9 +4,9 @@
     <listeners></listeners>
     <test thread-count="5" name="Test" parallel="classes">
         <classes>
-            <class name="org.cloverTest.com.tests.SearchGoogleTest" />
-            <class name="org.cloverTest.com.tests.SearchBingTest" />
-            <class name="org.cloverTest.com.tests.SearchYandexTest" />
+            <class name="org.cloverTest.com.tests.SearchGoogleTest"/>
+            <class name="org.cloverTest.com.tests.SearchBingTest"/>
+            <class name="org.cloverTest.com.tests.SearchYandexTest"/>
         </classes>
     </test> <!-- Test -->
 </suite>

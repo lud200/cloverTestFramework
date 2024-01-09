@@ -16,11 +16,12 @@ import java.util.concurrent.TimeUnit;
  * Every test class should extend this class.
  *
  * @author UdayaDuvvuri
- * */
+ */
 
-@Listeners({ ReportListener.class, LogListener.class })
+@Listeners({ReportListener.class, LogListener.class})
 public class BaseTest {
     protected WebDriver driver;
+
     /**
      * Global setup.
      */

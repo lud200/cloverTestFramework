@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8fe2f52e-b567-44d4-967d-af70eeb9ad7f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/context/WebDriverContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/context/WebDriverContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/factory/PageInstanceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/factory/PageInstanceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/listeners/LogListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/listeners/LogListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/listeners/ReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/listeners/ReportListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/report/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/report/ExtentReportManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/tests/SearchYandexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/tests/SearchYandexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/util/LoggerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/util/LoggerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/util/ReportUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/util/ReportUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/util/TestProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cloverTest/com/util/TestProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/testLogin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/testLogin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2ajiI6sd8wXHhlcKdMp3uI6hLZ9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/lduvvuri/Documents/cloverTestFramework"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.cloverTest.com.tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/lduvvuri/Documents/cloverTestFramework/src/main/resources/testng.xml">
+    <configuration name="SearchBingTest.searchBingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="clover_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cloverTest.com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cloverTest.com.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.cloverTest.com.tests.SearchBingTest" />
+      <option name="METHOD_NAME" value="searchBingTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchGoogleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="clover_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cloverTest.com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cloverTest.com.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.cloverTest.com.tests.SearchGoogleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchYandexTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="clover_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cloverTest.com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cloverTest.com.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.cloverTest.com.tests.SearchYandexTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchYandexTest.searchYahooTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="clover_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cloverTest.com.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cloverTest.com.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.cloverTest.com.tests.SearchYandexTest" />
+      <option name="METHOD_NAME" value="searchYahooTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/lduvvuri/Documents/cloverTestFramework/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="clover_test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/lduvvuri/Documents/cloverTestFramework/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.SearchGoogleTest" />
+        <item itemvalue="TestNG.SearchYandexTest.searchYahooTest" />
+        <item itemvalue="TestNG.SearchYandexTest" />
+        <item itemvalue="TestNG.SearchBingTest.searchBingTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fe2f52e-b567-44d4-967d-af70eeb9ad7f" name="Changes" comment="" />
+      <created>1704838307071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704838307071</updated>
+    </task>
+    <servers />
+  </component>
+</project>

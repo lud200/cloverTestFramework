@@ -11,14 +11,17 @@ import java.time.Duration;
 /**
  * The Class BasePage every Page should extend this class.
  *
- *
  * @author UdayaDuvvuri
  */
 public class BasePage {
-    /** The driver. */
+    /**
+     * The driver.
+     */
     protected WebDriver driver;
 
-    /** The waiter. */
+    /**
+     * The waiter.
+     */
     protected FluentWait<WebDriver> waiter;
 
     /**
@@ -30,8 +33,7 @@ public class BasePage {
         super();
         this.driver = driver;
         PageFactory.initElements(driver, this);
-        waiter = new FluentWait<WebDriver>(driver).ignoring(NoSuchElementException.class, WebDriverException.class)
-                .withTimeout(Duration.ofSeconds(10)).pollingEvery(Duration.ofSeconds(2));
+        waiter = new FluentWait<WebDriver>(driver).ignoring(NoSuchElementException.class, WebDriverException.class).withTimeout(Duration.ofSeconds(10)).pollingEvery(Duration.ofSeconds(2));
     }
 
 }

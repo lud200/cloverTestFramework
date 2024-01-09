@@ -41,10 +41,9 @@ public class SearchYandexTest extends BaseTest {
         driver.get(url);
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
         String homePage = driver.getTitle();
-        System.out.println(homePage);
         assertEquals("Yandex", homePage);
 
-        // Load search page
+        // Load yandex search page
         ReportUtil.logMessage("Search Text", "Enter Search text clover");
         SearchPage sp = PageInstanceFactory.getInstance(SearchPage.class);
         assert sp != null;

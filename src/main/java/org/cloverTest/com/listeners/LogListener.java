@@ -12,7 +12,6 @@ import org.testng.ITestResult;
  * <code>addLogListener<code> method. When the log event occurs, that object's
  * appropriate method is invoked.
  *
- *
  * @author UdayaDuvvuri
  */
 public class LogListener implements ITestListener {
@@ -23,8 +22,7 @@ public class LogListener implements ITestListener {
      * @return the test name
      */
     public String getTestName(ITestResult result) {
-        return result.getTestName() != null ? result.getTestName()
-                : result.getMethod().getConstructorOrMethod().getName();
+        return result.getTestName() != null ? result.getTestName() : result.getMethod().getConstructorOrMethod().getName();
     }
 
     /**
@@ -51,8 +49,7 @@ public class LogListener implements ITestListener {
     public void onTestFailure(ITestResult result) {
         Throwable t = result.getThrowable();
         String cause = "";
-        if (t != null)
-            cause = t.getMessage();
+        if (t != null) cause = t.getMessage();
         LoggerUtil.getLogger().fatal(getTestName(result) + " : Test Failed : " + cause);
     }
 

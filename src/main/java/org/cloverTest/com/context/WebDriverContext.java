@@ -1,9 +1,9 @@
 package org.cloverTest.com.context;
+
 import org.openqa.selenium.WebDriver;
 
 /**
- * The Class is responsible in maintaining single instance of webdriver in any given thread.
- *
+ * The Class is responsible in maintaining single instance of web-driver in any given thread.
  *
  * @author UdayaDuvvuri
  */
@@ -20,10 +20,8 @@ public class WebDriverContext {
      */
     public static WebDriver getDriver() {
         if (driverInstance.get() == null)
-            throw new IllegalStateException(
-                    "WebDriver has not been set, Please set WebDriver instance by WebDriverContext.setDriver...");
-        else
-            return driverInstance.get();
+            throw new IllegalStateException("WebDriver has not been set, Please set WebDriver instance by WebDriverContext.setDriver...");
+        else return driverInstance.get();
     }
 
     /**
