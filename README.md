@@ -25,7 +25,7 @@ Dependencies and SDK's:
 * Run the test case from testng.xml 
 * Run the test cases from /tests folder 
 * SearchTest is the actual test case that does the basic test mentioned in email
-* Framework currently supports parallel execution of tests
+* Framework supports parallel execution of tests
 
 ### Reporting
 The framework gives report in two ways,
